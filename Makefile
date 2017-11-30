@@ -56,3 +56,5 @@ all:
 clean:
 	$(MAKE) -f make_$(PLATFORM).mak clean
 
+install:
+	$(MAKE) -f make_$(PLATFORM).mak install
